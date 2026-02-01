@@ -1,0 +1,39 @@
+# --- Core scientific stack ---
+torch>=2.2.0
+torchvision>=0.17.0
+torchaudio>=2.2.0
+numpy>=1.26.0
+pandas>=2.2.0
+matplotlib>=3.8.0
+Pillow>=10.0.0
+opencv-python>=4.10.0
+scikit-learn>=1.5.0
+tqdm>=4.66.0
+
+# --- Hugging Face ecosystem ---
+transformers>=4.44.0
+datasets>=3.0.0
+accelerate>=0.33.0
+sentencepiece>=0.2.0
+huggingface-hub>=0.25.0
+
+# --- Vision models ---
+timm>=1.0.9                  # SegFormer / DeepLabV3+
+opencv-contrib-python>=4.10.0.84
+
+# --- RAG + Vector search ---
+faiss-cpu>=1.8.0
+llama-index>=0.11.14
+llama-index-core>=0.11.14
+llama-index-embeddings-huggingface>=0.2.4
+llama-index-vector-stores-faiss>=0.2.3
+llama-index-llms-huggingface>=0.2.2
+llama-index-readers-file>=0.2.0
+
+# --- LLM optimization (CPU-friendly) ---
+#unsloth>=0.7.1
+peft>=0.11.1
+
+# --- Development / Jupyter ---
+jupyter>=1.1.0
+ipykernel>=6.29.0
