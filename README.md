@@ -78,15 +78,4 @@ The system consists of:
 
 ---
 
-## Repository Structure
 
-```text
-.
-├── data/                  # Dataset loaders and preprocessing scripts
-├── vision/                # BLIP-2 and SegFormer encoders
-├── telemetry/             # Telemetry MLP encoder
-├── fusion/                # Gated fusion module
-├── rag/                   # Vector store and retrieval logic
-├── experiments/           # Evaluation and visualization scripts
-├── configs/               # Configuration files
-└── README.md
